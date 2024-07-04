@@ -1,9 +1,0 @@
-langchain
-langchain_community
-langchain_core
-chromadb
-python-dotenv
-pypdf
-groq
-langchain_groq
-streamlit
