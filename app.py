@@ -14,8 +14,8 @@ import tempfile
 from dotenv import load_dotenv
 
 # Set environment variables
-os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
-os.environ["HF_KEY"] = os.getenv("HF_KEY")
+os.environ["GROQ_API_KEY"] = "your api key" # refer groqcloud website
+os.environ["HF_KEY"] = "your api key" # refer huggingface website
 
 # Streamlit app layout
 st.title("PDF Question-Answering System")
